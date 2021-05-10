@@ -4,7 +4,7 @@ public class LinkedListImplementation {
 	
 Node head;
     
-	public void insert(int data) {
+    public void insert(int data) {
 		Node node = new Node();
 		node.data = data;
 		node.next = null;
